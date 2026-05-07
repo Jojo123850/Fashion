@@ -154,6 +154,14 @@ header{
 #section6{
         margin-bottom: 60px;
 }
+#section6 p{
+    color: var(--color2);
+    padding-bottom: 20px;
+}
+#section2 p{
+    color: var(--color2);
+    padding-bottom: 20px;
+}
 
 /* SECTION3 */
 #section3, #section5, #section4, #section7{
@@ -313,6 +321,10 @@ footer{
          display: grid;
         grid-template-columns: 1fr 1fr;
 
+    }
+    #section2, #section6{
+        display: grid;
+        grid-template-columns: 1fr;
     }
     
 }
