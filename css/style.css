@@ -151,9 +151,12 @@ header{
             height: -webkit-fill-available;
         }
 }
+#section6{
+        margin-bottom: 60px;
+}
 
 /* SECTION3 */
-#section3, #section5{
+#section3, #section5, #section4, #section7{
     max-width: 1920px;
     margin: auto;
     padding: 40px;
@@ -180,6 +183,7 @@ header{
                 vertical-align: middle;
                 padding-left: 20px;
                 padding-top: 15px;
+                color: var(--color2);
 
             }
             .price{
@@ -199,30 +203,66 @@ header{
 }
 
 /* SECTION4 */
-#section4, #section5{
+#section7{
     max-width: 1920px;
     margin: auto;
     padding: 40px;
     overflow-x: hidden;
 
-    .art0{
-        max-width: 1440px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
-        padding-bottom: 50px;
-            .artp{
-                color: var(--color2);
-            }
-            a{
-                display: block;
-                place-self: flex-end;
-                margin-top: -40px;
-            }
-        
-    }
 }
+#section4, #section5{
+    max-width: 1920px;
+    margin: auto;
+    padding: 40px;
+    overflow-x: hidden;
+}
+#section4 .art0{
+
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 50px;
+       
+}
+#section4 .artp{
+     color: var(--color2);
+
+}
+#section4 .art0 a{
+     display: block;
+            place-self: flex-end;
+            margin-top: -40px;
+
+}
+#section5 .art0{
+
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 50px;
+       
+}
+#section5 .artp{
+     color: var(--color2);
+
+}
+#section5 .art0 a{
+            display: block;
+            place-self: flex-end;
+            margin-top: -40px;
+
+}
+
+
+    
+ 
+        
+    
+
 
 /* DIV SECTION 3 et 5 */
 .div3{
