@@ -151,8 +151,14 @@ header{
             height: -webkit-fill-available;
         }
 }
+#section2 div{
+    align-content: center;
+}
 #section6{
         margin-bottom: 60px;
+}
+#section6 div{
+    align-content: center;
 }
 #section6 p{
     color: var(--color2);
